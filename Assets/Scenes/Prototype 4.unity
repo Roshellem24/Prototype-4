@@ -215,6 +215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 443371383}
+  - component: {fileID: 443371384}
   m_Layer: 0
   m_Name: Spawn Manager
   m_TagString: Untagged
@@ -236,6 +237,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &443371384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443371382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56986dd0c81e94e009b6d307d5c068e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 761432744495424191, guid: 4edd5ad6b691c4e4bb551d4d2d6b5cee,
+    type: 3}
+  enemyCount: 0
+  waveNumber: 1
+  powerupPrefab: {fileID: 3407684739655096583, guid: e510d7cc1a1ca42b699dc37601832de5,
+    type: 3}
+--- !u!1 &1000529160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3407684739655096583, guid: e510d7cc1a1ca42b699dc37601832de5,
+    type: 3}
+  m_PrefabInstance: {fileID: 3408277514024239690}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1211016355
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,7 +425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4625923886776944, guid: 961be46ca9a355943ae3f65c47741bb0, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4625923886776944, guid: 961be46ca9a355943ae3f65c47741bb0, type: 3}
       propertyPath: m_LocalScale.x
@@ -657,6 +682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   hasPowerup: 0
+  powerupIndicator: {fileID: 1000529160}
 --- !u!1001 &3408277514024239690
 PrefabInstance:
   m_ObjectHideFlags: 0
