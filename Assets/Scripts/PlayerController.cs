@@ -30,9 +30,8 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag("Powerup"))
         {
-            {
-                powerupIndicator.gameObject.SetActive(true);
-            }
+            
+            powerupIndicator.gameObject.SetActive(true);
             hasPowerup = true;
             Destroy(other.gameObject);
             StartCoroutine(PowerUpCountdownRoutine());
@@ -42,7 +41,7 @@ public class PlayerController : MonoBehaviour
     {
         powerupIndicator.gameObject.SetActive(false);
         yield return new WaitForSeconds(7);
-       hasPowerup = false; 
+        hasPowerup = false; 
     }
     private float powerupStrength = 15.0f;
 

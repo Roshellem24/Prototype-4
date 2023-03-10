@@ -8,14 +8,10 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: SM_Tile_Hex_FloatingIsland_01
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert101
-    second: {fileID: 2100000, guid: f00bd7623970144e8850f818bc8cf003, type: 2}
+    9500000: //RootNode
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -55,7 +51,7 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    optimizeMeshForGPU: 0
     keepQuads: 0
     weldVertices: 0
     preserveHierarchy: 0
